@@ -1,7 +1,8 @@
 // Génère launcher.html : une page avec un bouton qui ouvre la démo dans WordPress Playground.
 const fs = require('fs');
 const path = require('path');
-const url = fs.readFileSync(path.join(__dirname, 'playground-url.txt'), 'utf8').trim();
+// Lien court : Playground lit la recette publiée sur GitHub (toujours la dernière version poussée).
+const url = 'https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/remiostyn/maison-lumiere/main/blueprint.json';
 
 const html = `<title>Maison Lumière, démo</title>
 <meta name="claude:viewport-fit-sides" content="cover">

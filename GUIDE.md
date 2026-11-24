@@ -11,8 +11,10 @@
 | `make-launcher.js` / `launcher.html` | Page de présentation avec le bouton « Ouvrir la démo » |
 
 ## Montrer la démo à un prospect
-1. Ouvrir la page de lancement et cliquer sur **Ouvrir la démo en direct**.
-   Si le lien ne s'ouvre pas, copier le contenu de `playground-url.txt` dans la barre d'adresse.
+1. Ouvrir le lien court de la démo (il lit la recette publiée sur GitHub) :
+   https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/remiostyn/maison-lumiere/main/blueprint.json
+   Ou passer par la page de lancement et son bouton **Ouvrir la démo en direct**.
+   Sans connexion à GitHub, le long lien de `playground-url.txt` marche aussi.
 2. Attendre environ une minute : WordPress s'installe dans le navigateur.
 3. Montrer les pages, puis le côté administration (barre noire en haut) pour prouver que le client pourra modifier ses textes seul.
 4. Chaque ouverture repart de zéro : on peut tout modifier pendant le rendez-vous sans risque.
